@@ -1,13 +1,18 @@
 var person = require("./person");
 
-function Manager(name, contact) {
-  // set name and contact
-  
+function Manager(name, contact, properties) {
+  this.name = name;
+  this.contact = contact;
   this.properties = [];
 }
 
+Manager.prototype = new Person();
+
+Manager.prototype.constructor = Manager;
+
 Manager.prototype.addProperty = function(property) {
-  // add property from properties
+  var newApartment = 
+
 };
 
 Manager.prototype.removeProperty = function(property) {

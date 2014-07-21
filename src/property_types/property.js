@@ -4,11 +4,11 @@ function Property(address) {
 }
 
 Property.prototype.setManager = function(person) {
-  // set this.manager to person
+  Manager.prototype = new Person(name, contact);
 };
 
 Property.prototype.getManager = function(){
-  // return this.manager 
+  return this.manager;
 };
 
 Property.prototype.addTenant = function(unit, tenant) {

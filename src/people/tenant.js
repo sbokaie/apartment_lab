@@ -1,12 +1,13 @@
 var person = require("./person.js");
 
 function Tenant(name, contact) {
-  // set this.name, and contact
+  this.name = name;
+  this.contact = contact;
   this.references = [];
 };
 
 Tenant.prototype.addReference = function(reference){
-  // add reference to references
+  Person.prototype = new Person(name, contact)
 };
 
 module.exports = Tenant;

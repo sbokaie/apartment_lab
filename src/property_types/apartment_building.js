@@ -1,7 +1,8 @@
 var property = require("./property.js");
 
 function ApartmentBuilding(name, address) {
-  // A building can have many many units 
+  var aptUnits = 20;
+
 }
 
 module.exports = ApartmentBuilding;

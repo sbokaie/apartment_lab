@@ -1,6 +1,6 @@
 var property = require("./property");
 
 function Duplex(address) {
-  // A duplex only has 2 units;
+  var duplexUnits = 2;
 }
 module.exports = Duplex;
